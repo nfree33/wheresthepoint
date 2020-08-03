@@ -1,0 +1,76 @@
+* {
+    border: 1px solid gold;
+}
+
+body {
+    background-color: royalblue;
+}
+/* Modal Start */
+#modal {
+	background-color: rgba(0,0,0,0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	overflow: auto;
+    display: none;
+}
+#modal-textbox {
+	background-color: white;
+	height: 350px;
+	width: 550px;
+	border-radius: 2px;
+	margin: 150px auto;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+	padding: 2%;
+	line-height: 120%;
+	font-family: Arial;
+}
+#modal-footer {
+	text-align: right;
+}
+.modal-header{
+    padding-bottom: 15px;
+    text-align: center;
+}
+.modal-buttons {
+	padding: 14px 18px;
+	background-color: #677996;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+	color: white;
+	font-family: 'Arial';
+	cursor: pointer;
+}
+/* Modal End */
+
+
+.game-title {
+    margin: 10px auto;
+    text-align: center;
+    color: lemonchiffon;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    /* background-color: lemonchiffon; */
+    width: 90%;
+    margin: 10px auto;
+    height:400px;
+}
+.lives {
+    width: 10%;
+    text-align: center;
+    background-color: lemonchiffon;
+}
+.game-window {
+    width: 80%;
+    border: 5px solid black;
+    background-color: rgba(255, 250, 205, 0.8);
+}
+.start-game{
+    text-align: center;
+}
